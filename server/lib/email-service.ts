@@ -6,7 +6,7 @@ import { Resend } from "resend";
 
 // Initialize Resend client
 const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
-const fromEmail = process.env.RESEND_FROM_EMAIL || "noreply@ElectroProestimate.dev";
+const fromEmail = process.env.RESEND_FROM_EMAIL || "noreply@electricalestimatepro.dev";
 const frontendUrl = process.env.FRONTEND_URL || "http://localhost:8085";
 
 // Email sending configuration
@@ -141,7 +141,7 @@ function getEmailTemplate(content: string, unsubscribeUrl?: string): string {
               <table role="presentation" class="email-container" style="max-width: 600px; width: 100%; border-collapse: collapse; background-color: #1A1A1A; border-radius: 12px; overflow: hidden;">
                 <!-- Header -->
                 <tr>
-                  <td class="email-content" style="background: linear-gradient(135deg, #C41E3A 0%, #A01830 100%); padding: 40px 30px; text-align: center;">
+                  <td class="email-content" style="background: linear-gradient(135deg, #EAB308 0%, #CA8A04 100%); padding: 40px 30px; text-align: center;">
                     <h1 style="color: #FFFFFF; margin: 0; font-size: 32px; font-weight: bold; letter-spacing: -0.5px;">
                       ElectroPro Estimate
                     </h1>
@@ -189,7 +189,7 @@ export async function sendPasswordResetEmail(
       We received a request to reset your password. Click the button below to create a new password:
     </p>
     <div style="text-align: center; margin: 40px 0;">
-      <a href="${resetUrl}" style="background-color: #C41E3A; color: #FFFFFF; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; display: inline-block; transition: background-color 0.2s;">
+      <a href="${resetUrl}" style="background-color: #EAB308; color: #FFFFFF; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; display: inline-block; transition: background-color 0.2s;">
         Reset Password
       </a>
     </div>
@@ -236,7 +236,7 @@ export async function sendWelcomeEmail(
     <p class="email-text" style="color: #E5E7EB; font-size: 16px; line-height: 1.6; margin: 20px 0;">
       Welcome to ElectroPro Estimate! We're excited to help you create professional Electrical estimates in under 60 seconds.
     </p>
-    <div style="background-color: #1A1A1A; border-left: 4px solid #C41E3A; padding: 20px; margin: 30px 0; border-radius: 4px;">
+    <div style="background-color: #1A1A1A; border-left: 4px solid #EAB308; padding: 20px; margin: 30px 0; border-radius: 4px;">
       <h3 style="color: #FFFFFF; margin-top: 0; font-size: 18px; font-weight: 600;">Get Started:</h3>
       <ul style="color: #E5E7EB; font-size: 16px; line-height: 1.8; padding-left: 20px; margin: 10px 0;">
         <li>Create your first estimate in seconds</li>
@@ -245,12 +245,12 @@ export async function sendWelcomeEmail(
       </ul>
     </div>
     <div style="text-align: center; margin: 40px 0;">
-      <a href="${frontendUrl}/dashboard" style="background-color: #C41E3A; color: #FFFFFF; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; display: inline-block;">
+      <a href="${frontendUrl}/dashboard" style="background-color: #EAB308; color: #FFFFFF; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; display: inline-block;">
         Go to Dashboard
       </a>
     </div>
     <p class="email-muted" style="color: #9CA3AF; font-size: 14px; line-height: 1.6; margin: 20px 0;">
-      If you have any questions, feel free to reach out to our support team at <a href="mailto:support@ElectroProestimate.dev" style="color: #C41E3A; text-decoration: none;">support@ElectroProestimate.dev</a>.
+      If you have any questions, feel free to reach out to our support team at <a href="mailto:support@electricalestimatepro.dev" style="color: #EAB308; text-decoration: none;">support@electricalestimatepro.dev</a>.
     </p>
   `;
 
@@ -314,7 +314,7 @@ export async function sendSubscriptionConfirmationEmail(
         </tr>
       </table>
     </div>
-    <div style="background-color: #1A1A1A; border-left: 4px solid #C41E3A; padding: 20px; margin: 30px 0; border-radius: 4px;">
+    <div style="background-color: #1A1A1A; border-left: 4px solid #EAB308; padding: 20px; margin: 30px 0; border-radius: 4px;">
       <h3 style="color: #FFFFFF; margin-top: 0; font-size: 18px; font-weight: 600;">What's Included:</h3>
       <ul style="color: #E5E7EB; font-size: 16px; line-height: 1.8; padding-left: 20px; margin: 10px 0;">
         <li>Unlimited estimates</li>
@@ -325,12 +325,12 @@ export async function sendSubscriptionConfirmationEmail(
       </ul>
     </div>
     <div style="text-align: center; margin: 40px 0;">
-      <a href="${frontendUrl}/dashboard" style="background-color: #C41E3A; color: #FFFFFF; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; display: inline-block;">
+      <a href="${frontendUrl}/dashboard" style="background-color: #EAB308; color: #FFFFFF; padding: 16px 32px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; display: inline-block;">
         Start Creating Estimates
       </a>
     </div>
     <p class="email-muted" style="color: #9CA3AF; font-size: 14px; line-height: 1.6; margin: 20px 0;">
-      You can manage your subscription anytime from your <a href="${frontendUrl}/settings" style="color: #C41E3A; text-decoration: none;">account settings</a>.
+      You can manage your subscription anytime from your <a href="${frontendUrl}/settings" style="color: #EAB308; text-decoration: none;">account settings</a>.
     </p>
   `;
 

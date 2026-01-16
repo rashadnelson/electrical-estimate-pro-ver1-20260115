@@ -196,7 +196,7 @@ const Signup = () => {
       <SEO 
         title="Sign Up - ElectroPro Estimate"
         description="Create your free ElectroPro Estimate account. Start generating professional Electrical estimates in under 60 seconds."
-        canonical="https://ElectroProestimate.dev/signup"
+        canonical="https://electricalestimatepro.dev/signup"
       />
       <div className="min-h-screen flex flex-col bg-[#1A1A1A]">
         <Header />

@@ -137,7 +137,7 @@ const Login = () => {
       <SEO 
         title="Login - ElectroPro Estimate"
         description="Log in to your ElectroPro Estimate account to create and manage professional Electrical estimates."
-        canonical="https://ElectroProestimate.dev/login"
+        canonical="https://electricalestimatepro.dev/login"
       />
       <div className="min-h-screen flex flex-col bg-[#1A1A1A]">
         <Header />

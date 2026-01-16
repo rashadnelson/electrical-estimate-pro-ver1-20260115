@@ -313,7 +313,7 @@ export default function EstimateBuilder({
     // Footer
     lines.push("─".repeat(40));
     lines.push("Created with ElectroPro Estimate");
-    lines.push("Visit: ElectroProestimate.dev");
+    lines.push("Visit: electricalestimatepro.dev");
     
     return lines.join("\n");
   };

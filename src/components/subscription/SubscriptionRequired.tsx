@@ -223,7 +223,7 @@ export function SubscriptionRequired({
               <div className="mt-2 text-center">
                 <p className="text-sm text-white/40">
                   Need help?{" "}
-                  <a href="mailto:support@ElectroProestimate.dev" className="text-[#EAB308] hover:underline">
+                  <a href="mailto:support@electricalestimatepro.dev" className="text-[#EAB308] hover:underline">
                     Contact Support
                   </a>
                 </p>

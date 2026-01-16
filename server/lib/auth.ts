@@ -25,8 +25,8 @@ trustedOrigins.push(frontendUrl);
 // Add production domains (always include these for production deployments)
 if (isProduction) {
   trustedOrigins.push(
-    "https://ElectroProestimate.dev",
-    "https://www.ElectroProestimate.dev",
+    "https://electricalestimatepro.dev",
+    "https://www.electricalestimatepro.dev",
     // Netlify preview/deploy URLs
     "https://ElectroPro-estimate.netlify.app"
   );

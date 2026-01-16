@@ -99,8 +99,8 @@ const Terms = () => {
                 <h2 className="font-display text-2xl font-bold mb-4">9. Contact</h2>
                 <p className="text-muted-foreground">
                   For questions about these Terms of Service, contact us at:{" "}
-                  <a href="mailto:support@ElectroProestimate.dev" className="text-accent hover:underline">
-                    support@ElectroProestimate.dev
+                  <a href="mailto:support@electricalestimatepro.dev" className="text-accent hover:underline">
+                    support@electricalestimatepro.dev
                   </a>
                 </p>
               </section>

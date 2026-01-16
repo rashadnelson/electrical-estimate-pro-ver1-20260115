@@ -7,7 +7,7 @@ import RelatedPosts from "@/components/blog/RelatedPosts";
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How to Create Electrical Estimates: Complete Guide for Electricians [2025]",
+  "headline": "How to Create Electrical Estimates: Complete Guide for Electricians [2026]",
   "description": "Learn how to create professional electrical estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid.",
   "image": "https://electricalestimatepro.dev/og-image.png",
   "author": {
@@ -23,8 +23,8 @@ const articleSchema = {
       "url": "https://electricalestimatepro.dev/favicon.svg"
     }
   },
-  "datePublished": "2025-01-01",
-  "dateModified": "2025-01-15",
+  "datePublished": "2026-01-01",
+  "dateModified": "2026-01-15",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://electricalestimatepro.dev/blog/estimate-guide"
@@ -34,12 +34,12 @@ const articleSchema = {
 const EstimateGuide = () => {
   const relatedPosts = [
     {
-      title: "Electrical Pricing Guide: How Much to Charge for Electrical Jobs [2025]",
+      title: "Electrical Pricing Guide: How Much to Charge for Electrical Jobs [2026]",
       slug: "pricing-guide",
       excerpt: "Complete pricing guide for electricians. Learn how much to charge for common electrical jobs, calculate your costs, and maximize profitability.",
     },
     {
-      title: "Best Electrical Estimate Templates: Free vs Paid Options [2025]",
+      title: "Best Electrical Estimate Templates: Free vs Paid Options [2026]",
       slug: "template-comparison",
       excerpt: "Compare free electrical estimate templates, paid options, and software solutions. Learn which option is best for your electrical contracting business.",
     },
@@ -48,12 +48,12 @@ const EstimateGuide = () => {
   return (
     <>
       <Helmet>
-        <title>How to Create Electrical Estimates: Complete Guide [2025] | Electrical Estimate Pro</title>
+        <title>How to Create Electrical Estimates: Complete Guide [2026] | Electrical Estimate Pro</title>
         <meta 
           name="description" 
           content="Learn how to create professional electrical estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid." 
         />
-        <meta property="og:title" content="How to Create Electrical Estimates: Complete Guide [2025] | Electrical Estimate Pro" />
+        <meta property="og:title" content="How to Create Electrical Estimates: Complete Guide [2026] | Electrical Estimate Pro" />
         <meta 
           property="og:description" 
           content="Learn how to create professional electrical estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid." 
@@ -70,12 +70,12 @@ const EstimateGuide = () => {
         {/* Article Header */}
         <header className="mb-8">
           <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-foreground mb-4 leading-tight">
-            How to Create Electrical Estimates: Complete Guide for Electricians [2025]
+            How to Create Electrical Estimates: Complete Guide for Electricians [2026]
           </h1>
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <span>10 min read</span>
             <span>•</span>
-            <span>Updated January 2025</span>
+            <span>Updated January 2026</span>
           </div>
         </header>
 

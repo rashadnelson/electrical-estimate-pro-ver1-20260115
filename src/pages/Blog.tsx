@@ -15,19 +15,19 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
-    title: "How to Create Electrical Estimates: Complete Guide for Electricians [2025]",
+    title: "How to Create Electrical Estimates: Complete Guide for Electricians [2026]",
     slug: "estimate-guide",
     excerpt: "Learn how to create professional electrical estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid.",
     readTime: "10 min read",
   },
   {
-    title: "Electrical Pricing Guide: How Much to Charge for Electrical Jobs [2025]",
+    title: "Electrical Pricing Guide: How Much to Charge for Electrical Jobs [2026]",
     slug: "pricing-guide",
     excerpt: "Complete pricing guide for electricians. Learn how much to charge for common electrical jobs, calculate your costs, and maximize profitability.",
     readTime: "10 min read",
   },
   {
-    title: "Best Electrical Estimate Templates: Free vs Paid Options [2025]",
+    title: "Best Electrical Estimate Templates: Free vs Paid Options [2026]",
     slug: "template-comparison",
     excerpt: "Compare free electrical estimate templates, paid options, and software solutions. Learn which option is best for your electrical contracting business.",
     readTime: "8 min read",

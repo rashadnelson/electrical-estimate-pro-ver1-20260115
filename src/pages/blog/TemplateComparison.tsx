@@ -8,7 +8,7 @@ import { CheckCircle2, XCircle } from "lucide-react";
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Best Electrical Estimate Templates: Free vs Paid Options [2025]",
+  "headline": "Best Electrical Estimate Templates: Free vs Paid Options [2026]",
   "description": "Compare free electrical estimate templates, paid options, and software solutions. Learn which option is best for your electrical contracting business.",
   "image": "https://electricalestimatepro.dev/og-image.png",
   "author": {
@@ -24,8 +24,8 @@ const articleSchema = {
       "url": "https://electricalestimatepro.dev/favicon.svg"
     }
   },
-  "datePublished": "2025-01-01",
-  "dateModified": "2025-01-15",
+  "datePublished": "2026-01-01",
+  "dateModified": "2026-01-15",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://electricalestimatepro.dev/blog/template-comparison"
@@ -35,12 +35,12 @@ const articleSchema = {
 const TemplateComparison = () => {
   const relatedPosts = [
     {
-      title: "How to Create Electrical Estimates: Complete Guide for Electricians [2025]",
+      title: "How to Create Electrical Estimates: Complete Guide for Electricians [2026]",
       slug: "estimate-guide",
       excerpt: "Learn how to create professional electrical estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid.",
     },
     {
-      title: "Electrical Pricing Guide: How Much to Charge for Electrical Jobs [2025]",
+      title: "Electrical Pricing Guide: How Much to Charge for Electrical Jobs [2026]",
       slug: "pricing-guide",
       excerpt: "Complete pricing guide for electricians. Learn how much to charge for common electrical jobs, calculate your costs, and maximize profitability.",
     },
@@ -49,12 +49,12 @@ const TemplateComparison = () => {
   return (
     <>
       <Helmet>
-        <title>Best Electrical Estimate Templates: Free vs Paid [2025] | Electrical Estimate Pro</title>
+        <title>Best Electrical Estimate Templates: Free vs Paid [2026] | Electrical Estimate Pro</title>
         <meta 
           name="description" 
           content="Compare free electrical estimate templates, paid options, and software solutions. Learn which option is best for your electrical contracting business." 
         />
-        <meta property="og:title" content="Best Electrical Estimate Templates: Free vs Paid [2025] | Electrical Estimate Pro" />
+        <meta property="og:title" content="Best Electrical Estimate Templates: Free vs Paid [2026] | Electrical Estimate Pro" />
         <meta 
           property="og:description" 
           content="Compare free electrical estimate templates, paid options, and software solutions. Learn which option is best for your electrical contracting business." 
@@ -71,12 +71,12 @@ const TemplateComparison = () => {
         {/* Article Header */}
         <header className="mb-8">
           <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-foreground mb-4 leading-tight">
-            Best Electrical Estimate Templates: Free vs Paid Options [2025]
+            Best Electrical Estimate Templates: Free vs Paid Options [2026]
           </h1>
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <span>8 min read</span>
             <span>•</span>
-            <span>Updated January 2025</span>
+            <span>Updated January 2026</span>
           </div>
         </header>
 

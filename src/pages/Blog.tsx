@@ -15,22 +15,22 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
-    title: "How to Create Plumbing Estimates: Complete Guide for Plumbers [2025]",
+    title: "How to Create Electrical Estimates: Complete Guide for Electricians [2025]",
     slug: "estimate-guide",
-    excerpt: "Learn how to create professional plumbing estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid.",
-    readTime: "8 min read",
+    excerpt: "Learn how to create professional electrical estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid.",
+    readTime: "10 min read",
   },
   {
-    title: "Plumbing Pricing Guide: How Much to Charge for Plumbing Jobs [2025]",
+    title: "Electrical Pricing Guide: How Much to Charge for Electrical Jobs [2025]",
     slug: "pricing-guide",
-    excerpt: "Complete pricing guide for plumbers. Learn how much to charge for common plumbing jobs, calculate your costs, and maximize profitability.",
-    readTime: "7 min read",
+    excerpt: "Complete pricing guide for electricians. Learn how much to charge for common electrical jobs, calculate your costs, and maximize profitability.",
+    readTime: "10 min read",
   },
   {
-    title: "Best Plumbing Estimate Templates: Free vs Paid Options [2025]",
+    title: "Best Electrical Estimate Templates: Free vs Paid Options [2025]",
     slug: "template-comparison",
-    excerpt: "Compare free plumbing estimate templates, paid options, and software solutions. Learn which option is best for your plumbing business.",
-    readTime: "6 min read",
+    excerpt: "Compare free electrical estimate templates, paid options, and software solutions. Learn which option is best for your electrical contracting business.",
+    readTime: "8 min read",
   },
 ];
 
@@ -42,17 +42,19 @@ const Blog = () => {
   return (
     <>
       <Helmet>
-        <title>Plumbing Guides & Resources | PlumbPro Estimate</title>
+        <title>Electrical Guides & Resources | Electrical Estimate Pro</title>
         <meta 
           name="description" 
-          content="Free guides for plumbers: estimate creation, pricing strategies, and template comparisons. Learn how to win more plumbing jobs." 
+          content="Free guides for electricians: estimate creation, pricing strategies, and template comparisons. Learn how to win more electrical jobs." 
         />
-        <meta property="og:title" content="Plumbing Guides & Resources | PlumbPro Estimate" />
+        <meta property="og:title" content="Electrical Guides & Resources | Electrical Estimate Pro" />
         <meta 
           property="og:description" 
-          content="Free guides for plumbers: estimate creation, pricing strategies, and template comparisons. Learn how to win more plumbing jobs." 
+          content="Free guides for electricians: estimate creation, pricing strategies, and template comparisons. Learn how to win more electrical jobs." 
         />
-        <link rel="canonical" href="https://plumbproestimate.dev/blog" />
+        <meta property="og:url" content="https://electricalestimatepro.dev/blog" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://electricalestimatepro.dev/blog" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col bg-background">
@@ -63,10 +65,10 @@ const Blog = () => {
             {/* Hero Section */}
             <div className="max-w-4xl mx-auto text-center mb-16">
               <h1 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-foreground mb-6">
-                Plumbing Business Resources & Guides
+                Electrical Contracting Resources & Guides
               </h1>
               <p className="text-xl text-muted-foreground">
-                Expert guides to help you grow your plumbing business, price jobs correctly, and win more customers.
+                Expert guides to help you grow your electrical contracting business, price jobs correctly, and win more customers.
               </p>
             </div>
 
@@ -107,7 +109,7 @@ const Blog = () => {
                 Ready to streamline your estimate process?
               </h2>
               <p className="text-primary-foreground/80 text-lg mb-6">
-                Create professional plumbing estimates in 60 seconds with PlumbPro.
+                Create professional electrical estimates in 60 seconds with Electrical Estimate Pro.
               </p>
               <Button variant="hero" size="lg" className="group" asChild>
                 <Link to="/">

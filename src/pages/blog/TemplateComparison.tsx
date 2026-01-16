@@ -8,58 +8,60 @@ import { CheckCircle2, XCircle } from "lucide-react";
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Best Plumbing Estimate Templates: Free vs Paid Options [2025]",
-  "description": "Compare free plumbing estimate templates, paid options, and software solutions. Learn which option is best for your plumbing business.",
-  "image": "https://plumbproestimate.dev/og-image.png",
+  "headline": "Best Electrical Estimate Templates: Free vs Paid Options [2025]",
+  "description": "Compare free electrical estimate templates, paid options, and software solutions. Learn which option is best for your electrical contracting business.",
+  "image": "https://electricalestimatepro.dev/og-image.png",
   "author": {
     "@type": "Organization",
-    "name": "PlumbPro Estimate",
-    "url": "https://plumbproestimate.dev"
+    "name": "ElectroPro Estimate",
+    "url": "https://electricalestimatepro.dev"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "PlumbPro Estimate",
+    "name": "ElectroPro Estimate",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://plumbproestimate.dev/favicon.svg"
+      "url": "https://electricalestimatepro.dev/favicon.svg"
     }
   },
   "datePublished": "2025-01-01",
-  "dateModified": "2025-01-14",
+  "dateModified": "2025-01-15",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://plumbproestimate.dev/blog/template-comparison"
+    "@id": "https://electricalestimatepro.dev/blog/template-comparison"
   }
 };
 
 const TemplateComparison = () => {
   const relatedPosts = [
     {
-      title: "How to Create Plumbing Estimates: Complete Guide for Plumbers [2025]",
+      title: "How to Create Electrical Estimates: Complete Guide for Electricians [2025]",
       slug: "estimate-guide",
-      excerpt: "Learn how to create professional plumbing estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid.",
+      excerpt: "Learn how to create professional electrical estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid.",
     },
     {
-      title: "Plumbing Pricing Guide: How Much to Charge for Plumbing Jobs [2025]",
+      title: "Electrical Pricing Guide: How Much to Charge for Electrical Jobs [2025]",
       slug: "pricing-guide",
-      excerpt: "Complete pricing guide for plumbers. Learn how much to charge for common plumbing jobs, calculate your costs, and maximize profitability.",
+      excerpt: "Complete pricing guide for electricians. Learn how much to charge for common electrical jobs, calculate your costs, and maximize profitability.",
     },
   ];
 
   return (
     <>
       <Helmet>
-        <title>Best Plumbing Estimate Templates: Free vs Paid [2025] | PlumbPro</title>
+        <title>Best Electrical Estimate Templates: Free vs Paid [2025] | Electrical Estimate Pro</title>
         <meta 
           name="description" 
-          content="Compare free plumbing estimate templates, paid options, and software solutions. Learn which option is best for your plumbing business." 
+          content="Compare free electrical estimate templates, paid options, and software solutions. Learn which option is best for your electrical contracting business." 
         />
-        <meta property="og:title" content="Best Plumbing Estimate Templates: Free vs Paid [2025] | PlumbPro" />
+        <meta property="og:title" content="Best Electrical Estimate Templates: Free vs Paid [2025] | Electrical Estimate Pro" />
         <meta 
           property="og:description" 
-          content="Compare free plumbing estimate templates, paid options, and software solutions. Learn which option is best for your plumbing business." 
+          content="Compare free electrical estimate templates, paid options, and software solutions. Learn which option is best for your electrical contracting business." 
         />
-        <link rel="canonical" href="https://plumbproestimate.dev/blog/template-comparison" />
+        <meta property="og:url" content="https://electricalestimatepro.dev/blog/template-comparison" />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://electricalestimatepro.dev/blog/template-comparison" />
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
         </script>
@@ -69,10 +71,10 @@ const TemplateComparison = () => {
         {/* Article Header */}
         <header className="mb-8">
           <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-foreground mb-4 leading-tight">
-            Best Plumbing Estimate Templates: Free vs Paid Options [2025]
+            Best Electrical Estimate Templates: Free vs Paid Options [2025]
           </h1>
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>6 min read</span>
+            <span>8 min read</span>
             <span>•</span>
             <span>Updated January 2025</span>
           </div>
@@ -83,24 +85,25 @@ const TemplateComparison = () => {
           {/* Introduction */}
           <section className="mb-10">
             <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-              When you're starting out or running a small plumbing business, creating professional estimates is essential 
+              When you're running an electrical contracting business, creating professional estimates is essential 
               but time-consuming. Should you use free templates, invest in paid templates, or upgrade to estimate software? 
-              Each option has trade-offs in cost, time, and professionalism.
+              Each option has trade-offs in cost, time, professionalism, and liability protection.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              In this guide, we'll compare all three approaches so you can choose the best option for your business. We'll 
-              look at what each costs, how long they take, and which delivers the best results for winning jobs.
+              In this guide, we'll compare all three approaches so you can choose the best option for your electrical business. We'll 
+              look at what each costs, how long they take, and which delivers the best results for winning jobs and protecting 
+              your professional reputation.
             </p>
           </section>
 
           {/* Free Templates */}
           <section className="mb-10">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6 mt-8">
-              Free Plumbing Estimate Templates
+              Free Electrical Estimate Templates
             </h2>
             <p className="text-muted-foreground mb-4">
               Free templates are available from multiple sources: Google Docs templates, Microsoft Word templates, Excel 
-              spreadsheets, and fillable PDFs. You can download them, add your business info, and start using them immediately.
+              spreadsheets, and fillable PDFs. You can download them, add your business info and license number, and start using them immediately.
             </p>
 
             <div className="space-y-6">
@@ -120,11 +123,11 @@ const TemplateComparison = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-success mt-1">•</span>
-                    <span><strong className="text-foreground">Better than nothing:</strong> More professional than handwritten notes</span>
+                    <span><strong className="text-foreground">Better than handwritten:</strong> More professional than notes on the back of business cards</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-success mt-1">•</span>
-                    <span><strong className="text-foreground">Customizable:</strong> You can edit to match your brand</span>
+                    <span><strong className="text-foreground">Basic structure:</strong> Provides framework for itemizing labor, materials, and permits</span>
                   </li>
                 </ul>
               </div>
@@ -137,36 +140,36 @@ const TemplateComparison = () => {
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start gap-2">
                     <span className="text-destructive mt-1">•</span>
-                    <span><strong className="text-foreground">Time-consuming:</strong> Each estimate takes 20-30 minutes to fill out</span>
+                    <span><strong className="text-foreground">Time-consuming:</strong> Each estimate takes 20-30 minutes to fill out manually</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-destructive mt-1">•</span>
-                    <span><strong className="text-foreground">Math errors:</strong> Easy to make calculation mistakes</span>
+                    <span><strong className="text-foreground">Calculation errors:</strong> Easy to make math mistakes that cost you money or credibility</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-destructive mt-1">•</span>
-                    <span><strong className="text-foreground">Generic look:</strong> Customers see the same templates from every contractor</span>
+                    <span><strong className="text-foreground">Unprofessional appearance:</strong> Generic templates don't reflect your electrical expertise</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-destructive mt-1">•</span>
-                    <span><strong className="text-foreground">No tracking:</strong> No way to track which estimates were sent or accepted</span>
+                    <span><strong className="text-foreground">No circuit load calculations:</strong> Most don't help with electrical-specific requirements</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-destructive mt-1">•</span>
-                    <span><strong className="text-foreground">File management:</strong> Estimates scattered across your computer</span>
+                    <span><strong className="text-foreground">Difficult to track history:</strong> No centralized system for managing estimate records</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-destructive mt-1">•</span>
-                    <span><strong className="text-foreground">Limited features:</strong> No line item databases, no templates, no automation</span>
+                    <span><strong className="text-foreground">Generic, not customized:</strong> Doesn't include your branding, license info, or insurance details</span>
                   </li>
                 </ul>
               </div>
 
-              <div className="bg-card p-6 rounded-lg border border-border">
-                <p className="text-muted-foreground">
-                  <strong className="text-foreground">Bottom line:</strong> Free templates work when you're doing 1-2 estimates 
-                  per week. Once you're doing 5-10+ estimates weekly, the time cost becomes significant. If you value your 
-                  time at $75/hour, spending 30 minutes per estimate costs you $37.50 in lost productivity.
+              <div className="bg-card p-5 rounded-lg border border-border">
+                <p className="text-foreground font-semibold mb-2">Bottom Line:</p>
+                <p className="text-muted-foreground text-sm">
+                  Free templates work if you're just starting out and only doing a few estimates per month. Once you're doing 
+                  5+ estimates weekly, the time wasted and unprofessional appearance hurt your business more than the money saved.
                 </p>
               </div>
             </div>
@@ -175,11 +178,11 @@ const TemplateComparison = () => {
           {/* Paid Templates */}
           <section className="mb-10">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6 mt-8">
-              Paid Plumbing Estimate Templates
+              Paid Electrical Estimate Templates
             </h2>
             <p className="text-muted-foreground mb-4">
-              Paid templates ($10-50) are available from marketplaces like Etsy or Creative Market. Some designers offer 
-              custom templates for $100-500. These typically look better than free options and may include multiple formats.
+              Paid templates ($10-50 from template marketplaces, or $100-500 for custom design services) offer better design 
+              and professional polish compared to free options.
             </p>
 
             <div className="space-y-6">
@@ -191,19 +194,15 @@ const TemplateComparison = () => {
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start gap-2">
                     <span className="text-success mt-1">•</span>
-                    <span><strong className="text-foreground">Better design:</strong> More polished and professional appearance</span>
+                    <span><strong className="text-foreground">Better professional design:</strong> More polished appearance than free options</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-success mt-1">•</span>
-                    <span><strong className="text-foreground">Brand customization:</strong> Can add your logo and colors</span>
+                    <span><strong className="text-foreground">Can be branded:</strong> Add your logo, colors, and license information</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-success mt-1">•</span>
-                    <span><strong className="text-foreground">One-time cost:</strong> Pay once, use forever</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-success mt-1">•</span>
-                    <span><strong className="text-foreground">Multiple formats:</strong> Often includes Word, Excel, and PDF versions</span>
+                    <span><strong className="text-foreground">More polished:</strong> Better formatting and layout than generic free templates</span>
                   </li>
                 </ul>
               </div>
@@ -216,33 +215,32 @@ const TemplateComparison = () => {
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start gap-2">
                     <span className="text-destructive mt-1">•</span>
-                    <span><strong className="text-foreground">Still manual:</strong> Every estimate requires manual data entry</span>
+                    <span><strong className="text-foreground">Still manual data entry:</strong> You're still typing everything by hand every time</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-destructive mt-1">•</span>
-                    <span><strong className="text-foreground">Still slow:</strong> 20-30 minutes per estimate</span>
+                    <span><strong className="text-foreground">Time-consuming:</strong> Takes just as long to fill out as free templates (20-30 min)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-destructive mt-1">•</span>
-                    <span><strong className="text-foreground">Math errors possible:</strong> Unless using Excel with formulas</span>
+                    <span><strong className="text-foreground">Calculation errors still possible:</strong> No automation means math mistakes can happen</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-destructive mt-1">•</span>
-                    <span><strong className="text-foreground">No automation:</strong> Can't save common line items or reuse estimates</span>
+                    <span><strong className="text-foreground">No faster than free:</strong> You're paying for design, not efficiency</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-destructive mt-1">•</span>
-                    <span><strong className="text-foreground">Setup required:</strong> Takes time to customize initially</span>
+                    <span><strong className="text-foreground">No automation:</strong> Every estimate starts from scratch</span>
                   </li>
                 </ul>
               </div>
 
-              <div className="bg-card p-6 rounded-lg border border-border">
-                <p className="text-muted-foreground">
-                  <strong className="text-foreground">Bottom line:</strong> Paid templates look better than free ones, but they 
-                  don't save you any time. You're paying for aesthetics, not efficiency. If presentation is crucial and 
-                  you only do a few estimates monthly, a $30 template might be worth it. Otherwise, the time savings of 
-                  software quickly justify the recurring cost.
+              <div className="bg-card p-5 rounded-lg border border-border">
+                <p className="text-foreground font-semibold mb-2">Bottom Line:</p>
+                <p className="text-muted-foreground text-sm">
+                  Paid templates look slightly better than free templates, but they don't save you any time. If your main problem 
+                  is speed (not appearance), paid templates won't solve it. You're still doing everything manually.
                 </p>
               </div>
             </div>
@@ -251,88 +249,170 @@ const TemplateComparison = () => {
           {/* Software Solutions */}
           <section className="mb-10">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6 mt-8">
-              Plumbing Estimate Software
+              Electrical Estimate Software
             </h2>
             <p className="text-muted-foreground mb-4">
-              Software solutions range from comprehensive business suites ($50-200/month) to simple estimate generators 
-              ($10-20/month). They automate calculations, save common line items, and generate professional PDFs instantly.
+              Software solutions fall into two categories: full business management suites and focused estimate generators.
             </p>
 
-            <div className="space-y-6">
+            <div className="space-y-8">
+              {/* Full Suites */}
               <div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">Full Business Management Suites</h3>
-                <p className="text-muted-foreground mb-2">
-                  Examples: ServiceTitan, Jobber, Housecall Pro ($50-200/month)
+                <h3 className="text-2xl font-semibold text-foreground mb-4">
+                  Full Business Management Suites ($50-200/month)
+                </h3>
+                <p className="text-muted-foreground mb-4">
+                  Examples: ServiceTitan, Jobber, Housecall Pro. These are comprehensive platforms that handle everything: 
+                  CRM, scheduling, dispatching, invoicing, customer tracking, and estimates.
                 </p>
-                <p className="text-muted-foreground mb-3">
-                  <strong className="text-foreground">Pros:</strong> Everything in one place—estimates, invoicing, scheduling, customer management, 
-                  payment processing. Great for larger operations with employees.
-                </p>
-                <p className="text-muted-foreground">
-                  <strong className="text-foreground">Cons:</strong> Expensive. Complex with steep learning curves. Overkill for solo plumbers or small 
-                  teams. Many features you'll never use.
-                </p>
+
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="text-lg font-semibold text-foreground mb-2 flex items-center gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-success" />
+                      Pros
+                    </h4>
+                    <ul className="space-y-2 text-muted-foreground text-sm">
+                      <li className="flex items-start gap-2">
+                        <span className="text-success mt-1">•</span>
+                        <span>Everything included (CRM, scheduling, invoicing, dispatch, customer tracking, estimates)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-success mt-1">•</span>
+                        <span>Comprehensive business management in one place</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-success mt-1">•</span>
+                        <span>Advanced features for large teams and complex operations</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h4 className="text-lg font-semibold text-foreground mb-2 flex items-center gap-2">
+                      <XCircle className="h-4 w-4 text-destructive" />
+                      Cons
+                    </h4>
+                    <ul className="space-y-2 text-muted-foreground text-sm">
+                      <li className="flex items-start gap-2">
+                        <span className="text-destructive mt-1">•</span>
+                        <span>Expensive ($600-2,400+/year)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-destructive mt-1">•</span>
+                        <span>Complex interface with steep learning curve (weeks or months to master)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-destructive mt-1">•</span>
+                        <span>Monthly fees add up quickly</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-destructive mt-1">•</span>
+                        <span>Overkill if you just need estimates (why pay for features you won't use?)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-destructive mt-1">•</span>
+                        <span>Requires training and setup time</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
 
+              {/* Simple Estimate Generators */}
               <div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">Simple Estimate Generators</h3>
-                <p className="text-muted-foreground mb-2">
-                  Examples: PlumbPro Estimate ($19/month or $149/year)
+                <h3 className="text-2xl font-semibold text-foreground mb-4">
+                  Simple Estimate Generators ($19/month)
+                </h3>
+                <p className="text-muted-foreground mb-4">
+                  Examples: Electrical Estimate Pro. These tools focus exclusively on creating estimates quickly and professionally. 
+                  No bloat, no complexity—just fast, professional electrical estimates.
                 </p>
-                <p className="text-muted-foreground mb-3">
-                  <strong className="text-foreground">Pros:</strong> Affordable. Does one thing really well—generates estimates fast. No learning curve. 
-                  Create estimates in 60 seconds instead of 30 minutes. Automatic calculations eliminate math errors. 
-                  Professional PDF output. Perfect for solo plumbers and small teams.
-                </p>
-                <p className="text-muted-foreground">
-                  <strong className="text-foreground">Cons:</strong> Limited to estimates—doesn't handle scheduling, invoicing, or other business 
-                  functions. But if you only need estimates, the focused simplicity is actually a benefit.
-                </p>
-              </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">Key Benefits of Any Software Solution</h3>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-success mt-1" />
-                    <span><strong className="text-foreground">Massive time savings:</strong> 60 seconds vs 30 minutes per estimate</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-success mt-1" />
-                    <span><strong className="text-foreground">Zero math errors:</strong> Automatic calculations</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-success mt-1" />
-                    <span><strong className="text-foreground">Professional output:</strong> Consistent, branded PDFs every time</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-success mt-1" />
-                    <span><strong className="text-foreground">Reusable templates:</strong> Save common jobs and reuse them</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-success mt-1" />
-                    <span><strong className="text-foreground">Mobile-friendly:</strong> Create estimates from your phone on-site</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-success mt-1" />
-                    <span><strong className="text-foreground">Customer database:</strong> Track all your estimates in one place</span>
-                  </li>
-                </ul>
-              </div>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="text-lg font-semibold text-foreground mb-2 flex items-center gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-success" />
+                      Pros
+                    </h4>
+                    <ul className="space-y-2 text-muted-foreground text-sm">
+                      <li className="flex items-start gap-2">
+                        <span className="text-success mt-1">•</span>
+                        <span><strong className="text-foreground">Fast:</strong> Generate estimates in 60 seconds vs 20-30 minutes</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-success mt-1">•</span>
+                        <span><strong className="text-foreground">Affordable:</strong> $19/month or $149/year (less than one billable hour)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-success mt-1">•</span>
+                        <span><strong className="text-foreground">Focused:</strong> Does one thing really well—electrical estimates</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-success mt-1">•</span>
+                        <span><strong className="text-foreground">Easy to use:</strong> No training needed, intuitive interface</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-success mt-1">•</span>
+                        <span><strong className="text-foreground">Mobile-friendly:</strong> Quote from job site or truck</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-success mt-1">•</span>
+                        <span><strong className="text-foreground">Try free:</strong> 3 estimates per month on free tier</span>
+                      </li>
+                    </ul>
+                  </div>
 
-              <div className="bg-card p-6 rounded-lg border border-border">
-                <p className="text-muted-foreground mb-3">
-                  <strong className="text-foreground">ROI Calculation:</strong>
-                </p>
-                <div className="text-sm text-muted-foreground space-y-1">
-                  <p>Templates: 30 minutes per estimate</p>
-                  <p>Software: 1 minute per estimate</p>
-                  <p>Time saved: 29 minutes per estimate</p>
-                  <p>10 estimates/month = 290 minutes saved = 4.8 hours</p>
-                  <p>At $75/hour = $360/month in recovered time</p>
-                  <p className="text-accent font-semibold mt-2">
-                    Software at $19/month pays for itself with just 2 estimates.
-                  </p>
+                  <div>
+                    <h4 className="text-lg font-semibold text-foreground mb-2 flex items-center gap-2">
+                      <XCircle className="h-4 w-4 text-destructive" />
+                      Cons
+                    </h4>
+                    <ul className="space-y-2 text-muted-foreground text-sm">
+                      <li className="flex items-start gap-2">
+                        <span className="text-destructive mt-1">•</span>
+                        <span>Don't include full business management features (but that's the point—simple and focused)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-destructive mt-1">•</span>
+                        <span>No CRM, scheduling, or dispatch tools (use separate tools if needed)</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="mt-6 bg-accent/10 p-5 rounded-lg border border-accent/30">
+                  <h4 className="text-foreground font-semibold mb-3">Benefits of Software Over Templates for Electricians:</h4>
+                  <ul className="space-y-2 text-muted-foreground text-sm">
+                    <li className="flex items-start gap-2">
+                      <span className="text-accent mt-1">⚡</span>
+                      <span><strong className="text-foreground">Generate estimates in 60 seconds vs 20-30 minutes:</strong> Massive time savings lets you quote more jobs</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-accent mt-1">⚡</span>
+                      <span><strong className="text-foreground">Professional PDF output:</strong> Includes your branding, license number, and insurance info automatically</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-accent mt-1">⚡</span>
+                      <span><strong className="text-foreground">Automatic calculations:</strong> No math errors—software calculates totals, taxes, and markups perfectly</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-accent mt-1">⚡</span>
+                      <span><strong className="text-foreground">Mobile-friendly:</strong> Quote from the job site or truck—send estimates on the spot</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-accent mt-1">⚡</span>
+                      <span><strong className="text-foreground">Save common services:</strong> Store per-outlet pricing, fixture rates, common circuits for reuse</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-accent mt-1">⚡</span>
+                      <span><strong className="text-foreground">Consistent presentation:</strong> Every estimate looks professional—builds trust with customers</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-accent mt-1">⚡</span>
+                      <span><strong className="text-foreground">Try free:</strong> 3 estimates per month to test it risk-free</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -341,54 +421,58 @@ const TemplateComparison = () => {
           {/* What to Look For */}
           <section className="mb-10">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6 mt-8">
-              What to Look For in Estimate Solutions
+              What to Look for in an Electrical Estimating Solution
             </h2>
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">Must-Have Features</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Must-Haves</h3>
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1">•</span>
-                    <span><strong className="text-foreground">Professional output:</strong> PDF format with your branding</span>
+                    <span>Professional PDF output with your logo and license number</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1">•</span>
-                    <span><strong className="text-foreground">Fast creation:</strong> Under 5 minutes, ideally under 2 minutes</span>
+                    <span>Fast creation (under 5 minutes per estimate)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1">•</span>
-                    <span><strong className="text-foreground">Mobile-friendly:</strong> Works on phone and tablet, not just desktop</span>
+                    <span>Mobile-friendly (quote from job site)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1">•</span>
-                    <span><strong className="text-foreground">Accurate calculations:</strong> Automatic totals, tax, discounts</span>
+                    <span>Accurate calculations (no math errors)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1">•</span>
-                    <span><strong className="text-foreground">Affordable:</strong> Under $50/month for solo plumbers</span>
+                    <span>Customizable with your branding and license information</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Affordable (under $20/month)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Free trial option to test before committing</span>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">Nice-to-Have Features</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Nice-to-Haves</h3>
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start gap-2">
-                    <span className="text-muted-foreground mt-1">•</span>
-                    <span>Reusable templates for common jobs</span>
+                    <span className="text-muted-foreground/50 mt-1">•</span>
+                    <span>Save service templates for common electrical work</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-muted-foreground mt-1">•</span>
-                    <span>Customer database to track estimate history</span>
+                    <span className="text-muted-foreground/50 mt-1">•</span>
+                    <span>Common fixture and device database</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-muted-foreground mt-1">•</span>
-                    <span>Email delivery option</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-muted-foreground mt-1">•</span>
-                    <span>Line item library for common services</span>
+                    <span className="text-muted-foreground/50 mt-1">•</span>
+                    <span>Reusable line items for standard electrical services</span>
                   </li>
                 </ul>
               </div>
@@ -397,20 +481,20 @@ const TemplateComparison = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-2">What You Don't Need</h3>
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start gap-2">
-                    <span className="text-destructive mt-1">•</span>
-                    <span>Complex CRM features (unless you have employees)</span>
+                    <span className="text-destructive/50 mt-1">✗</span>
+                    <span>Complicated features you'll never use</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-destructive mt-1">•</span>
-                    <span>GPS tracking and route optimization (overkill for most)</span>
+                    <span className="text-destructive/50 mt-1">✗</span>
+                    <span>Expensive monthly fees ($50-200/month)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-destructive mt-1">•</span>
-                    <span>Accounting integration (use dedicated accounting software)</span>
+                    <span className="text-destructive/50 mt-1">✗</span>
+                    <span>Long training period or complex onboarding</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-destructive mt-1">•</span>
-                    <span>Marketing automation (different tool, different purpose)</span>
+                    <span className="text-destructive/50 mt-1">✗</span>
+                    <span>Bloated software that tries to do everything</span>
                   </li>
                 </ul>
               </div>
@@ -419,42 +503,16 @@ const TemplateComparison = () => {
 
           {/* Conclusion */}
           <section className="mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6 mt-8">
-              Which Option Is Right for You?
-            </h2>
-            
-            <div className="space-y-4 mb-6">
-              <div className="p-4 bg-card border-l-4 border-accent rounded">
-                <p className="text-foreground font-semibold mb-1">Choose Free Templates if:</p>
-                <p className="text-muted-foreground">You do fewer than 2 estimates per month and budget is extremely tight.</p>
-              </div>
-
-              <div className="p-4 bg-card border-l-4 border-warning rounded">
-                <p className="text-foreground font-semibold mb-1">Choose Paid Templates if:</p>
-                <p className="text-muted-foreground">
-                  You want a more professional look than free templates but don't do enough estimates to justify software.
-                </p>
-              </div>
-
-              <div className="p-4 bg-card border-l-4 border-success rounded">
-                <p className="text-foreground font-semibold mb-1">Choose Simple Software if:</p>
-                <p className="text-muted-foreground">
-                  You create 5+ estimates per month and value your time. The time savings alone justify the cost.
-                </p>
-              </div>
-
-              <div className="p-4 bg-card border-l-4 border-muted-foreground rounded">
-                <p className="text-foreground font-semibold mb-1">Choose Full Suite Software if:</p>
-                <p className="text-muted-foreground">
-                  You have employees, need scheduling/dispatch, or run a larger operation where all-in-one makes sense.
-                </p>
-              </div>
-            </div>
-
+            <p className="text-muted-foreground text-lg leading-relaxed mb-4">
+              Free templates are better than nothing, but they waste valuable time that could be spent on billable work. 
+              Paid templates look slightly better but don't solve the time problem. Professional estimate software—especially 
+              affordable, focused tools like Electrical Estimate Pro—save massive amounts of time, eliminate errors, and present 
+              your electrical expertise professionally.
+            </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              For most independent plumbers and small teams, simple estimate software is the sweet spot. You get professional 
-              results and massive time savings without the complexity and cost of full business suites. Your time is valuable—
-              spend it doing plumbing work, not filling out templates.
+              If you're doing more than a few estimates per week, the time savings alone justifies the cost. A tool that lets 
+              you quote in 60 seconds instead of 30 minutes pays for itself with your first saved hour. Plus, professional 
+              estimates help you win more jobs by demonstrating that you're a legitimate, licensed electrical contractor.
             </p>
           </section>
         </div>

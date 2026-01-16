@@ -1,10 +1,10 @@
 /**
- * PlumbPro Estimate Brand Colors
+ * ElectroPro Estimate Brand Colors
  */
 export const COLORS = {
   primary: {
-    crimson: '#C41E3A',
-    crimsonDark: '#A01830',
+    yellow: '#EAB308',
+    yellowLight: '#FDE047',
   },
   background: {
     dark: '#1A1A1A',

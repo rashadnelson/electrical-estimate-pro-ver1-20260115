@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     height: 8,
-    backgroundColor: '#C41E3A',
+    backgroundColor: '#EAB308',
   },
   header: {
     flexDirection: 'row',
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
   estimateLabel: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#C41E3A',
+    color: '#EAB308',
     marginBottom: 5,
   },
   estimateNumber: {
@@ -171,12 +171,12 @@ const styles = StyleSheet.create({
   totalLabel: {
     fontSize: 11,
     fontWeight: 'bold',
-    color: '#C41E3A',
+    color: '#EAB308',
   },
   totalValue: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#C41E3A',
+    color: '#EAB308',
   },
   // Footer
   footer: {
@@ -389,7 +389,7 @@ export const EstimatePDFDocument = ({
         {/* Watermark for Free Tier */}
         {showWatermark && (
           <Text style={styles.watermark} fixed>
-            Created with PlumbPro Estimate
+            Created with ElectroPro Estimate
           </Text>
         )}
       </Page>
